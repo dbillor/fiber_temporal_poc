@@ -66,7 +66,7 @@ class FiberRepairWorkflow:
 
         # Pause the workflow and wait for a signal
         await workflow.wait_condition(lambda: self._paused)
-        workflow.logger.info("Workflow paused")
+        workflow.logger.info("Workflow unpaused because fiber provider has repaired fiber")
 
         # Shift traffic back
         await workflow.execute_activity(
