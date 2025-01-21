@@ -47,3 +47,8 @@ Once the signal is received, the workflow proceeds to shift traffic back and clo
 - The workflow’s pause uses `wait_condition` until the `resume_signal` is triggered.
 
 Feel free to extend or modify each step to suit your production environment or integrate with real fiber repair processes.
+
+
+## Example from UI
+
+<img width="1968" alt="image" src="https://github.com/user-attachments/assets/f22c0387-74ea-4154-b8c8-513979ba3177" />
